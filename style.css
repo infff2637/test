@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+}
+
+.header__content{
+    padding-top:22px;
+    padding-bottom: 23px;
+    margin:0 auto;
+    max-width: 1200px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header__nav{
+    display:flex;
+    list-style: none;
+}
+
+.header__item{
+    padding:12px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #868686;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-radius:3px;
+}
+
+.header__item:hover{
+    background-color: #ffbb42;
+    color: #ffffff;
+    transition:0.3s;
+}
+
+.top_section{
+    width: 100%;
+    background-color: #709dca;
+}
+
+.top_section__content{
+    max-width:1200px;
+    margin:0 auto;
+    padding-top:110px;
+}
+.top_section__text{
+    text-align:center;
+    margin-bottom: 33px;
+}
+
+.top_section__h1{
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Gotham - Black';
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+}
+
+.top_section__text_small{
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.top_section__auth{
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_section__field{
+    border-radius: 3px;
+    border: 0;
+    outline: none;
+    margin-right: 10px;
+    padding-top:18px;
+    padding-bottom: 18px;
+    padding-left: 41px;
+    flex-grow:1;
+}
+
+.top_section__button{
+    flex-grow:0.8;
+    background-color: #ffbb42;
+    border:0;
+    border-radius: 3px;
+    outline:0;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.top_section__slide_container{
+    position: relative;
+    top:63px;
+    margin: 0 auto;
+    width: 647px;
+    height: 343px;
+    background-image: url(../images/Vector_Smart_Object.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 24px;
+}
+
+.top_section__slide_pic{
+    position: absolute;
+    top:18px;
+    left:102px;
+}
+
+.top_section__slide_switchers{
+    display:flex;
+    position: absolute;
+    bottom: -40px;
+    left:50%;
+    margin-left:-32px;
+}
+
+.top_section__slide_switch{
+    margin-right: 10px;
+    display:block;
+    padding:6px;
+    border: 2px solid #dedfe0;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.top_section__slide_switch:hover{
+    border:2px solid #1ca8dd;
+}
+
+.top_section__slide_switch.no_margin{
+    margin-right: 0;
+}
